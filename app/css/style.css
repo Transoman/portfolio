@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/bg.jpg) no-repeat top center;
+  background-size: cover;
+  font-family: 'RobotoRegular', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.auth {
+  float: right;
+  margin: 22px 20px 0 0;
+}
+
+.auth__btn {
+  display: block;
+  width: 180px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-family: "RobotoMedium", sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+}
+
+.auth__btn:hover {
+  background-color: #fff;
+  color: #00bfa5;
+}
