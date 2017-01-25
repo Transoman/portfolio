@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Transoman/start_template.git"
+    "url": "git+https://github.com/Transoman/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Transoman/start_template/issues"
+    "url": "https://github.com/Transoman/portfolio.git/issues"
   },
-  "homepage": "https://github.com/Transoman/start_template#readme",
+  "homepage": "https://github.com/Transoman/portfolio.git#readme",
   "devDependencies": {
     "gulp-autoprefixer": "^3.1.1",
     "gulp-pug": "^3.2.0",
