@@ -4,10 +4,13 @@
 *
  box-sizing: border-box
 
+html
+	height: 100%
+
 body
 	background: url(../img/bg.jpg) no-repeat top center
 	background-size: cover
-	font-family: 'RobotoRegular', sans-serif
+	font-family: 'RobotoRegular'
 	font-size: 16px
 	line-height: 1.5
 
@@ -20,7 +23,7 @@ body
 		height: 45px
 		border: 1px solid #fff
 		border-radius: 3px
-		font-family: "RobotoMedium", sans-serif
+		font-family: 'RobotoMedium'
 		color: #fff
 		text-align: center
 		line-height: 45px
@@ -28,3 +31,26 @@ body
 		&:hover
 			background-color: #fff
 			color: $accent-color
+
+.login
+	&-wrap
+		width: 380px
+		height: 395px
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		margin: auto
+		background-color: #fff
+		background-color: rgba(255,255,255,.85)
+		border-radius: 5px
+	&__pic
+		margin: 40px auto 0
+		width: 143px
+		height: 143px
+		border-radius: 50%
+		overflow: hidden
+	&__img
+		max-width: 100%
+
