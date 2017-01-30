@@ -8,6 +8,20 @@
 @font-face {
   font-family: "RobotoMedium";
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   src: url("../fonts/Roboto/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/RobotoMedium/RobotoMedium.woff") format("woff"), url("../fonts/Roboto/RobotoMedium/RobotoMedium.ttf") format("truetype"), url("../fonts/Roboto/RobotoMedium/RobotoMedium.svg#RobotoMedium") format("svg");
+}
+
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Roboto/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/Roboto/RobotoLight/RobotoLight.ttf") format("truetype"), url("../fonts/Roboto/RobotoLight/RobotoLight.svg#RobotoLight") format("svg");
+}
+
+@font-face {
+  font-family: "BernierRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Bernier/BernierRegular/BernierRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/Bernier/BernierRegular/BernierRegular.woff") format("woff"), url("../fonts/Bernier/BernierRegular/BernierRegular.ttf") format("truetype"), url("../fonts/Bernier/BernierRegular/BernierRegular.svg#BernierRegular") format("svg");
 }

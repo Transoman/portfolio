@@ -9,8 +9,16 @@
 	&:after
 		clear: both
 
-*
- box-sizing: border-box
+.pull-left
+	float: left
+
+.pull-right
+	float: right
+
+*,
+*:before,
+*:after
+	box-sizing: border-box
 
 html
 	height: 100%
@@ -30,6 +38,10 @@ body
 	height: 100%
 	background: url(../img/bg.jpg) no-repeat top center
 	background-size: cover
+
+.container
+	position: relative
+	padding: 30px
 
 .auth
 	float: right
@@ -101,12 +113,17 @@ body
 		color: #73d4c8
 		&:hover
 			color: $accent-color
+		&_white
+			color: #fff
+			opacity: .5
+			&:hover
+				color: #fff
+				opacity: 1
 
 .nav
 	position: absolute
 	bottom: 0
 	width: 100%
-	height: 45px
 	background-color: $accent-color
 	opacity: .85
 	&__list
@@ -125,6 +142,7 @@ body
 		display: block
 		padding: 0 31px
 		font-family: 'RobotoMedium'
+		height: 45px
 		line-height: 45px
 		color: #fff
 		text-decoration: none
@@ -132,8 +150,106 @@ body
 .author
 	text-align: center
 	color: #fff
+	font-family: 'RobotoLight'
 	&-wrap
 		width: 100%
 		position: absolute
 		bottom: 0
+		text-align: center
+
+.header
+	position: relative
+	background: url(../img/bg.jpg) no-repeat top center
+	background-size: cover
+	height: 100vh
+	min-height: 650px
+	// &:after
+	// 	content: ''
+	// 	display: block
+	// 	width: 100%
+	// 	height: 359px
+	// 	position: relative
+	// 	bottom: -133px
+	// 	background: url(../img/bg_white.png) no-repeat top center
+	// 	background-size: cover
+
+.overlay
+	position: absolute
+	width: 100%
+	height: 100%
+	background-color: #016672
+	opacity: .3
+	z-index: 0
+
+.top-line
+	margin-bottom: 90px
+
+.mnu
+	display: none
+	&__btn
+		cursor: pointer
+		&-bar
+			position: relative
+			width: 40px
+			height: 5px
+			border-radius: 5px
+			background-color: #fff
+			&:before
+				content: ''
+				display: block
+				width: 40px
+				height: 5px
+				border-radius: 5px
+				background-color: #fff
+				position: absolute
+				left: 0
+				top: -10px
+			&:after
+				content: ''
+				display: block
+				width: 40px
+				height: 5px
+				border-radius: 5px
+				background-color: #fff
+				position: absolute
+				left: 0
+				top: 10px
+
+.user
 	text-align: center
+	color: #fff
+	&__name
+		margin: 0
+		font-family: 'RobotoMedium'
+		font-size: 35px
+	&__work
+		margin: 0
+		font-family: 'RobotoLight'
+		font-size: 16px
+		opacity: .8
+
+.down
+	opacity: .7
+	text-align: center
+	margin-top: 240px
+	&__link
+		color: #fff
+
+/* -- Section works -- */
+.works
+	&__head
+		text-align: center
+		font-family: "BernierRegular"
+		font-size: 63px
+		color: $header-color
+		&:before, &:after
+			content: ''
+			display: inline-block
+			vertical-align: middle
+			width: 22px
+			height: 5px
+			background-color: #cbcbc6
+		&:before
+			margin-right: 20px
+		&:after
+			margin-left: 20px

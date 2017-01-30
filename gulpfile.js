@@ -45,7 +45,7 @@ gulp.task('template', function() {
 
 gulp.task('watch', ['browser-sync', 'template', 'styles'], function() {
 	gulp.watch(dirs.styleDir, ['styles']);
-	gulp.watch(dirs.pugDir, ['template']);
+	gulp.watch(dirs.pugDir, ['template'], browserSync.reload);
 });
 
 gulp.task('default', ['watch']);

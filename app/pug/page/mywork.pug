@@ -1,0 +1,46 @@
+extends ../layout/layout
+
+block title
+	| Мои работы
+
+block content
+
+	header.header
+		.overlay
+		.container
+			.top-line
+				ul.socials.pull-left
+					li.socials__item
+						a(href="#").socials__link.socials__link_white
+							i(aria-hidden="true").fa.fa-vk
+					li.socials__item
+						a(href="#").socials__link.socials__link_white
+							i(aria-hidden="true").fa.fa-github-alt
+					li.socials__item
+						a(href="#").socials__link.socials__link_white
+							i(aria-hidden="true").fa.fa-linkedin
+
+				.mnu__btn.pull-right
+					.mnu__btn-bar
+				ul.mnu
+					li.mnu__list
+						a(href="mywork.html").mnu__link Мои работы
+					li.mnu__list
+						a(href="blog.html").mnu__link Блог
+					li.mnu__list
+						a(href="about.html").mnu__link Обо мне
+					li.mnu__list
+						a(href="login.html").mnu__link Авторизация
+
+			.user
+				.login__pic
+					img(src="img/user.jpg" alt="Горковець Василь").login__img
+				h1.user__name Горковець Василь
+				h3.user__work Личный сайт веб разработчика
+
+			.down
+				a(href="#").down__link
+					i(aria-hidden="true").fa.fa-chevron-down
+	section.works
+		h2.works__head Мои работы
+	footer.footer
